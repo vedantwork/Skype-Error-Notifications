@@ -1,0 +1,95 @@
+﻿Redis integration in django
+
+
+In terminal, paste the following command prompt or vs code terminal
+
+
+pip install django-redis
+sudo apt install redis-tools
+
+
+After the following command you need to start your service by the following command
+
+
+sudo service redis-server start
+
+
+To Stop redis server
+sudo service redis-server stop
+
+
+  
+
+
+
+In your project, open setting file and paste the following 
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+Because using import cache by 
+from django.core.cache import cache
+
+
+you can just run the following command and you will see all databases of the Redis instance without firing up redis-cli
+redis-cli INFO | grep ^db
+  
+
+
+
+
+
+
+
+
+
+
+
+Redis API List
+
+
+setdata
+In setdata(), when the user hits any specific api the response comes for the server and gets stored into the cache, on the second time when the api is hit the data will come from the cache instead of the server
+
+
+https://stg.minty.co.in/restapi/userflow/setredisdata/
+{"key":"hellooo",”value”:”(Json content)”}
+ 
+getdata
+In getdata() the api response will come from the store cache instead of the server, which will indirectly reduce the response time 
+
+
+https://stg.minty.co.in/restapi/userflow/getredisdata/
+{"key":"hellooo”}
+
+
+deletedata
+In deletedata() the cache will get deleted as soon as the user clicks on view report button or calls /restapi/report/getreportdata/ api
+
+
+https://stg.minty.co.in/restapi/userflow/deleteredisdata/
+{"key":"hellooo”}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stall django-redis
+pip install django-redis
+
+
+pip install django-redis
