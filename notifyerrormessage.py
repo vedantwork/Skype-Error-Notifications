@@ -86,39 +86,13 @@ class skype_error_alert():
 
                     # This is the list of API which requires user_id, fp_log_id, fp_user_id as their payload
                     api_list = [
-                    'getrpinoutflow',
-                    'getsurplusdata',	
-                    'getscorecard',		
-                    'getassetgoals',	
-                    'getassetgoalmapping',
-                    'getallunlinkassets',			
-                    'getreccontingencyrisk',		
-                    'getfinalgoalrecommnedation',	
-                    'getcashflowrecommendation',				
-                    'getrecommendationcashflow',		
-                    'getequityfundflow',		
-                    'getdebtfundflow',
-                    'getretirementcorpus',
-                    'goalsummary',		
-                    'getliabilitysummary',		
-                    'getassetandliabilityrecommendation',	
-                    'getAssetSummary']	
+                    'name_of_your_api'
+                    ]
 
                     # This is the list of API which requires user_id, fp_log_id as their payload
                     api_list2 = [
-                    'getrpyourprofiledata',	
-                    'getriskappetite',	
-                    'getcurrentinsurance',	
-                    'getlifeinsurance',	
-                    'getcashflowsurplusshortfall',	
-                    'getcashinflow',	
-                    'getcashoutflow',	
-                    'getretirementinfo',	
-                    'getretirementcashflow',	
-                    'getcurrentinsurance',	
-                    'getequitydata',
-                    'realstateInvestment',	
-                    'debtInvestment']
+                    'name_of_your_api'
+                    ]
 
                     requested_payload = {"fp_log_id":fp_log_id_new,"user_id":user_id_new,"fp_user_id":fp_user_id}
                     requested_payloadd = {"fp_log_id":fp_log_id_new,"user_id":user_id_new}
