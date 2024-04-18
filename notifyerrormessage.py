@@ -79,7 +79,7 @@ class skype_error_alert():
                     api_failure_counter = 0
                     api_success_counter = 0
 
-                    sk = Skype('vedant.vartak@fintoo.in', 'vedantfintoo12345') # connect to Skype
+                    sk = Skype('yourskypeemail', 'yourskypepassword') # connect to Skype
                     sk.user # you
                     sk.contacts # your contacts
                     sk.chats # your conversations
