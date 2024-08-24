@@ -89,6 +89,11 @@ To use this service, you will need:
 2. To trigger the error notification, send a POST request to the endpoint with the necessary payload.
 3. The method will process the request and send the error message to the configured Skype chat.
 
+- [👥 Author](#author)
+  - Vedant Vartak
+    - Email ✉️: vedantvartakworkk@gmail.com
+    - Country 🌍: India 🇮🇳
+
 **Example Request**:
 
 ```json
@@ -96,8 +101,4 @@ To use this service, you will need:
     "email": "user@example.com"
 }
 
-- [👥 Author](#author)
-  - Vedant Vartak
-    - Email ✉️: vedantvartakworkk@gmail.com
-    - Country 🌍: India 🇮🇳
 
