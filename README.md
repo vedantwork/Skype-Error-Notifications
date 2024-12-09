@@ -5,17 +5,17 @@
 
 ## 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-- [👀 Overview](#overview)
-- [🛠 Built With](#built-with)
-  - [🔥 Tech Stack](#tech-stack)
-- [🔑 Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [📜 Prerequisites](#prerequisites)
-  - [⚙️ Setup](#setup)
-  - [▶️ Run Application](#run-application)
-  - [🕹️ Usage](#usage)
-- [👥 Author](#author)
+- 📖 About the Project
+- 👀 Overview
+- 🛠 Built With
+  - 🔥 Tech Stack
+- 🔑 Key Features
+- 💻 Getting Started
+  - 📜 Prerequisites
+  - ⚙️ Setup
+  - ▶️ Run Application
+  - 🕹️ Usage
+- 👥 Author
 
 ## 📖 About the Project
 
